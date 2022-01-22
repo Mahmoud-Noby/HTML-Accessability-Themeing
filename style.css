@@ -1,0 +1,158 @@
+
+.accessability-tabs a{
+    position: absolute;
+    top: -30px;
+}
+
+.accessability-tabs a:focus{
+    top: 0.5rem;
+    left: 7rem;
+    background: #fff;
+    color: purple;
+    position: absolute;
+    z-index: 999;
+    border: none;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px #a6a6a6;
+    padding: 7px 20px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.mainFont {
+    font-size: 14px
+}
+h1 {
+    font-size: 3.5rem
+}
+h2 {
+    font-size: 2.5rem
+}
+
+h3 {
+    font-size: 2rem
+}
+
+h4{
+    font-size: 1.5rem
+}
+
+p{
+    font-size: 1.2rem
+}
+
+body{
+    margin: 0 ;
+    padding: 0; 
+    background: #ebebeb;
+    font-family:   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.color-switching{
+    justify-content: end;
+}
+.color-switching li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 0 ;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.color-switching li:first-child{
+    background-color: rgb(218, 57, 57);
+}
+.color-switching li:nth-child(2){
+    
+    background-color: purple;
+}
+.color-switching li:nth-child(3){
+    background-color: rgb(24, 92, 24);
+}
+.color-switching li:nth-child(4){
+    background-color: black;
+}
+
+.border{
+    border: 2px solid darkgray;
+}
+
+li{
+    padding: 0 20px
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header, .form-section {
+    background: #fff;
+    padding: 2rem 3rem;
+    box-shadow: 1px 2px 5px #a6a6a6;
+    margin-bottom: 20px;
+    width: 60%;
+    display: block !important;
+    position: relative;
+}
+
+.fontSize{
+    position: absolute;
+    right: -19px;
+
+}
+.theme-style:hover{
+    background: red;
+    cursor: pointer
+}
+
+.theming{
+    position: absolute;
+    right: 70px;
+}
+
+.theme-style{
+    background: #111;
+    color: #fff;
+    padding: 3px 5px;
+}
+input, label {
+    display: block;
+    margin-bottom: 10px
+}
+
+.red{
+    background: rgb(218, 57, 57);
+}
+
+.purple{
+    background: purple;
+}
+.green{
+    background: rgb(24, 92, 24);
+}
+
+.black{
+    background: black;
+}
